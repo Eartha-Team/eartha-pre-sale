@@ -1,0 +1,27 @@
+{
+  "name": "@eartha/pre-sales",
+  "version": "1.0.0",
+  "description": "Eartha pre sale smart contracts",
+  "main": "truffle-config.js",
+  "keywords": [
+    "eartha",
+    "crowdsale",
+    "ico"
+  ],
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.1.7",
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.3.0",
+    "dotenv": "^9.0.0",
+    "openzeppelin-solidity": "^4.1.0",
+    "prettier": "^2.3.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.10",
+    "truffle-plugin-verify": "^0.5.7"
+  },
+  "scripts": {
+    "migrate": "truffle migrate",
+    "compile": "truffle compile",
+    "test": "truffle test"
+  }
+}

@@ -1,0 +1,6 @@
+.history
+.vscode
+.env.local
+/node_modules
+/client
+/build
